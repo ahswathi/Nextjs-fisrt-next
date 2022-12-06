@@ -1,9 +1,8 @@
 import Link from 'next/link';
-
-const index = () => {
-  return (
-   <>
-    <nav>
+const Product = () => {
+    return (
+      <>
+      <nav>
       <ul className="menu">
         <Link href="/">
         Home
@@ -22,8 +21,8 @@ const index = () => {
         </Link>
       </ul>
     </nav>
-    <div className='content'>Home Content</div>
-   </>
-  )
-}
-export default index;
+    <div className='content'>Product Content</div>
+    </>
+    )
+  }
+  export default Product;

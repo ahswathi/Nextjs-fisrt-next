@@ -24,3 +24,25 @@ a {
     background: black;
   }
 }
+nav ul a{
+  padding: 20px;
+  background-color: rgb(201, 201, 201);
+  
+}
+nav ul a:hover{
+  background-color: rgb(83, 241, 189);
+  
+}
+ul li{
+  list-style-type: none;
+  display: inline-block;
+}
+ul{
+  margin-top: 50px;
+  margin-left: 30%;
+}
+.content{
+  
+  margin-top: 50px;
+  margin-left: 40%;
+}
